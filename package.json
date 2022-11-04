@@ -4,16 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server --ignore dist/ --ignore src/ & npm run build:dev",
+    "build": "webpack",
+    "build:dev": "npm run build -- --watch --mode development"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.0",
-    "express": "^4.18.2",
     "nodemon": "^2.0.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
