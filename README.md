@@ -20,7 +20,7 @@ A user cannot submit a form untill all fields are filled out.
 
 A user gets warning if email is not filled out properly.
 
-<img width="640" alt="email-warning" src="https://user-images.githubusercontent.com/100243695/200142179-c7ae6f8b-0de0-4211-8e4d-9ce938ad97ce.png">
+<img width="800" alt="email-warning" src="https://user-images.githubusercontent.com/100243695/200142179-c7ae6f8b-0de0-4211-8e4d-9ce938ad97ce.png">
 
 Upon submission a user gets an alert, that form is successfully submitted.
 
