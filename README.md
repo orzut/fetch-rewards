@@ -36,4 +36,4 @@ To run the app in development mode:
 * The app will be available at 'localhost:3000'
 
 ## Screenshots
-! [App page] (assets/app-page.png)
+! [App page] (/assets/app-page.png)
