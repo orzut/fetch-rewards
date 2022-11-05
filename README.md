@@ -3,7 +3,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* 
+* [Screenshots](#screenshots)
 
 ## General info
 This project allows a user create an account providing following information:
@@ -35,4 +35,5 @@ To run the app in development mode:
 * npm run start:dev
 * The app will be available at 'localhost:3000'
 
-##
+## Screenshots
+! [App page] (assets/app-page.png)
