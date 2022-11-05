@@ -13,15 +13,16 @@ This project allows a user create an account providing following information:
 * Occupation
 * State
 
-A user cannot submit a form untill all fields are filled out. Upon submission a user gets an alert, that form is successfully submitted.
+A user cannot submit a form untill all fields are filled out. 
+Upon submission a user gets an alert, that form is successfully submitted.
 	
 ## Technologies
 Project is created with:
 * Express version 4.18.2
 * Axios version 1.1.3
+* Webpack version 5.74.0
 * React version 18.2.0
 * Material UI version 5.10.12
-* Webpack version 5.74.0
 	
 ## Setup
 To run this project, install it locally using npm:
