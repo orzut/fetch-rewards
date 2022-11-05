@@ -6,12 +6,13 @@ import {
   InputLabel,
   Select,
   MenuItem,
+  Alert,
 } from "@mui/material";
 import axios from "axios";
 
 const Form = () => {
   const [values, setValues] = useState({
-    fullName: "",
+    name: "",
     email: "",
     password: "",
     occupation: "",
@@ -32,15 +33,12 @@ const Form = () => {
   const handleSubmit = async (ev) => {
     ev.preventDefault();
     try {
-      const response = await axios({
-        method: "POST",
-        url: "https://frontend-take-home.fetchrewards.com/form",
-        data: JSON.stringify(values),
-      });
-
-      console.log(response.data);
+      await axios.post(
+        "https://frontend-take-home.fetchrewards.com/form",
+        values
+      );
       setValues({
-        fullName: "",
+        name: "",
         email: "",
         password: "",
         occupation: "",
@@ -48,6 +46,7 @@ const Form = () => {
       });
     } catch (err) {
       console.log(err);
+      <Alert severity="error">Please fill out all fields</Alert>;
     }
   };
 
@@ -61,10 +60,10 @@ const Form = () => {
         sx={{ width: 300 }}
         required
         type="text"
-        name="fullName"
+        name="name"
         label="Full Name"
         onChange={handleChange}
-        value={values.fullName}
+        value={values.name}
         margin="dense"
       />
       <TextField
@@ -90,6 +89,7 @@ const Form = () => {
       <FormControl sx={{ mt: 1, width: 300 }}>
         <InputLabel>Occupation</InputLabel>
         <Select
+          required
           name="occupation"
           value={values.occupation}
           label="Occupation"
@@ -108,6 +108,7 @@ const Form = () => {
       <FormControl sx={{ mt: 1, width: 300 }}>
         <InputLabel>State</InputLabel>
         <Select
+          required
           name="state"
           value={values.state}
           label="State"
