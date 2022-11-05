@@ -13,9 +13,9 @@ import {
 import CloseIcon from "@mui/icons-material/Close";
 import axios from "axios";
 
-const inputStyle = {
-  WebkitBoxShadow: "0 0 0 1000px inherit inset",
-};
+// const inputStyle = {
+//   WebkitBoxShadow: "0 0 0 1000px inherit inset",
+// };
 
 const Form = () => {
   const [values, setValues] = useState({
@@ -69,7 +69,6 @@ const Form = () => {
         <h2>Create an account</h2>
         <TextField
           sx={{ width: 300 }}
-          inputProps={{ style: inputStyle }}
           required
           type="text"
           name="name"
@@ -80,7 +79,6 @@ const Form = () => {
         />
         <TextField
           sx={{ width: 300 }}
-          inputProps={{ style: inputStyle }}
           required
           type="email"
           name="email"
@@ -91,7 +89,6 @@ const Form = () => {
         />
         <TextField
           sx={{ width: 300 }}
-          inputProps={{ style: inputStyle }}
           required
           type="password"
           name="password"
@@ -100,10 +97,7 @@ const Form = () => {
           value={values.password}
           margin="dense"
         />
-        <FormControl
-          sx={{ mt: 1, width: 300 }}
-          inputProps={{ style: inputStyle }}
-        >
+        <FormControl sx={{ mt: 1, width: 300 }}>
           <InputLabel>Occupation</InputLabel>
           <Select
             required
@@ -122,10 +116,7 @@ const Form = () => {
           </Select>
         </FormControl>
 
-        <FormControl
-          sx={{ mt: 1, width: 300 }}
-          inputProps={{ style: inputStyle }}
-        >
+        <FormControl sx={{ mt: 1, width: 300 }}>
           <InputLabel>State</InputLabel>
           <Select
             required
@@ -146,7 +137,8 @@ const Form = () => {
         <Button
           sx={{
             mt: 1,
-            backgroundColor: "rgb(255, 212, 82)",
+            width: 300,
+            backgroundColor: "rgb(254, 225, 136)",
             color: "black",
             "&:hover": { backgroundColor: "rgb(196, 99, 196)" },
           }}
@@ -156,6 +148,7 @@ const Form = () => {
           Submit
         </Button>
       </form>
+      {/* Success dialog */}
       {success ? (
         <Dialog
           open={success}
