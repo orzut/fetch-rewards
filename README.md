@@ -37,12 +37,12 @@ Project is created with:
 ## Setup
 To run this project, install it locally using npm:
 
-* npm install
-* npm start
+* '''npm install'''
+* '''npm start'''
 
 To run the app in development mode:
 
-* npm run start:dev
+* '''npm run start:dev'''
 * The app will be available at 'localhost:3000'
 
 
