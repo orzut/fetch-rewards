@@ -47,5 +47,5 @@ To run the app in development mode:
 
 ## Contact
 Orzu Tursunova: orzu.tursunova@yahoo.com
-
+Project link: https://github.com/orzut/fetch-rewards
 
