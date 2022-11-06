@@ -14,15 +14,15 @@ This tool allows a user to create an account by requiring to provide the followi
 
 <img width="800" alt="app page" src="https://user-images.githubusercontent.com/100243695/200141815-ee913c88-764f-4ac1-9488-2c2613d73422.png">
 
-A user cannot submit a form untill all fields are filled out. 
+User cannot submit a form untill all fields are filled out. 
 
 <img width="800" alt="warning" src="https://user-images.githubusercontent.com/100243695/200141821-a66fa4df-d126-4b89-b288-eb55fc341280.png">
 
-A user gets warning if email is not valid.
+User gets warning if email is not valid.
 
 <img width="800" alt="email-warning" src="https://user-images.githubusercontent.com/100243695/200142179-c7ae6f8b-0de0-4211-8e4d-9ce938ad97ce.png">
 
-Upon submission a user gets an alert, that form is successfully submitted.
+User gets a successfull submission alert upon completion of all the information.
 
 <img width="800" alt="success alert" src="https://user-images.githubusercontent.com/100243695/200141825-2b40d520-5660-4ccb-9e83-c5fcd60c8e2c.png">
 	
