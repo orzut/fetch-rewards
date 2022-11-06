@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 ## General info
-This project allows a user create an account providing following information:
+This tool allows a user to create an account by requiring to provide the following information:
 * Full name
 * E-mail
 * Password
