@@ -45,6 +45,7 @@ To run the app in development mode:
 * ```npm run start:dev```
 * The app will be available at 'localhost:3000'
 
-
+## Contact
+Orzu Tursunova: orzu.tursunova@yahoo.com
 
 
